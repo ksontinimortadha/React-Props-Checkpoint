@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 const Player = ({ name, team, nationality, jerseyNumber, age,image, imageUrl }) => {
   return (
     <>
+    {/* card template to be filled with players informations*/ }
     <Row xs={1} md={2} className="g-4">
       {Array.from({ length: 1 }).map((_, idx) => (
         <Col key={idx}>
